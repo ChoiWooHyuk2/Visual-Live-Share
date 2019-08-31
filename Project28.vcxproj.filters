@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{27218ece-f997-4685-9d7a-38cff4bdaed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{eef6e57c-edf3-42b6-9a4e-94f3b3633b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{869e5222-71e0-4e6c-8be7-2654d490c16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{90cc19f9-3b9d-4bc6-87a5-138308ccfa6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input\PCommand">
+      <UniqueIdentifier>{7bc9a32e-8894-4f4f-89d6-e9bb9c8527a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input\JumpCommand">
+      <UniqueIdentifier>{d94e6bd0-e817-4450-ac9f-ecbd581d4a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input\MovingCommand">
+      <UniqueIdentifier>{a9370371-eaf9-4415-bd45-6d3b7939acb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\SDATA">
+      <UniqueIdentifier>{80002a95-bbb6-4fb3-be81-ac73c17dc19c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JumpCommand.cpp">
+      <Filter>소스 파일\Input\JumpCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingCommand.cpp">
+      <Filter>소스 파일\Input\MovingCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>소스 파일\Input\PCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="SpendData.cpp">
+      <Filter>소스 파일\Object\SDATA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JumpCommand.h">
+      <Filter>소스 파일\Input\JumpCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\main</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>소스 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingCommand.h">
+      <Filter>소스 파일\Input\MovingCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>소스 파일\Input\PCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="SpendData.h">
+      <Filter>소스 파일\Object\SDATA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
